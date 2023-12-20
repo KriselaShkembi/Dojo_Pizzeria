@@ -24,13 +24,12 @@ var sauceType = ["traditional", "marinara", "pesto", "hummus", "buffalo"]
 var cheeses = ["mozarella", "feta", "cheddar", "parmesan"];
 var topings = ["chicken", "ham", "cauliflower", "pickeled"];
 
-
 function pickRandom (arr) {
     var i = Math.floor(arr.length * Math.random());
     return arr[i];
 }
 
-
+//some changes --- other changes
 function randomPizza() {
     var pizza = {}
     pizza.crustType = pickRandom(crustType);
