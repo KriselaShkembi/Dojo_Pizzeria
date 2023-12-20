@@ -29,7 +29,6 @@ function pickRandom (arr) {
     return arr[i];
 }
 
-//some changes ---
 function randomPizza() {
     var pizza = {}
     pizza.crustType = pickRandom(crustType);
@@ -40,4 +39,4 @@ function randomPizza() {
 }
 
 console.log(randomPizza());
-
+// console.log(randomPizza()); --commented
